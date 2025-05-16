@@ -7,7 +7,7 @@ struct Person
 	int id;
 };
 
-void Square(int i) {
+void Square(int& i) {
 	i *= i;
 }
 
