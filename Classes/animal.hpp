@@ -3,7 +3,7 @@
 #include <iostream>
 
 enum class AnimalType {
-    CAT, SNAKE, LEN   
+    CAT, SNAKE   
 };
 
 class Animal {

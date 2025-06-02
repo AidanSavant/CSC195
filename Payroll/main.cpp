@@ -32,10 +32,10 @@ int main() {
     float hours_worked_pday[7] = { 0 };
     int total_hours_worked = 0;
     for (int i = 0; i < days_worked; ++i) {
-    	std::cout << "Enter hours worked for day " << i + 1 << ": ";
-    	std::cin >> hours_worked_pday[i];
+        std::cout << "Enter hours worked for day " << i + 1 << ": ";
+        std::cin >> hours_worked_pday[i];
 
-    	total_hours_worked += hours_worked_pday[i];
+        total_hours_worked += hours_worked_pday[i];
     }
 
     float grossIncome = total_hours_worked * wage;
